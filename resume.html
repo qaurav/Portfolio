@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav Neupane - Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @media print {
+      body {
+        width: 8.5in;
+        height: 11in;
+        margin: 0;
+        padding: 0;
+      }
+      .resume-container {
+        width: 8.5in;
+        height: 11in;
+        margin: 0;
+        padding: 0.4in;
+      }
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .resume-container {
+      background: white;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.5in;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      color: #333;
+      line-height: 1.4;
+    }
+
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #2196F3;
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      margin: 0 0 4px 0;
+      color: #1a1a1a;
+    }
+
+    .contact-info {
+      text-align: center;
+      font-size: 10px;
+      color: #666;
+      padding-bottom: 6px;
+      margin-bottom: 8px;
+    }
+
+    .contact-info a {
+      color: #2196F3;
+      text-decoration: none;
+    }
+
+    .section {
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #2196F3;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 4px;
+      margin-bottom: 6px;
+    }
+
+    .job, .education, .award, .project {
+      margin-bottom: 8px;
+      font-size: 11px;
+    }
+
+    .job-title, .degree, .award-title, .project-title {
+      font-weight: 600;
+      color: #1a1a1a;
+      font-size: 11px;
+    }
+
+    .company, .school {
+      color: #555;
+      font-size: 10px;
+    }
+
+    .date {
+      float: right;
+      font-size: 10px;
+      color: #555;
+    }
+
+    ul {
+      margin: 2px 0 0 15px;
+      padding: 0;
+      font-size: 10px;
+      color: #555;
+    }
+
+    ul li {
+      margin-bottom: 2px;
+    }
+
+    .summary-text {
+      font-size: 10px;
+      color: #555;
+      margin-top: 2px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      font-size: 10px;
+    }
+
+    .skill-category {
+      margin-bottom: 6px;
+    }
+
+    .skill-category strong {
+      color: #2196F3;
+      display: block;
+      font-size: 11px;
+      margin-bottom: 2px;
+    }
+
+    .skill-category p {
+      color: #555;
+      margin: 0;
+      line-height: 1.3;
+    }
+
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .resume-container {
+        box-shadow: none;
+        padding: 0.35in;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Header -->
+    <div class="header">
+      <h1>GAURAV NEUPANE</h1>
+      <div class="contact-info">
+        <a href="mailto:neupane.gaurav2@gmail.com">neupane.gaurav2@gmail.com</a> |
+        <span>9808019431</span> |
+        Sunawal-12, Bhumahi, Nawalparasi, Nepal |
+        <a href="http://gauravneupane1998.com.np/" target="_blank">Portfolio</a>
+      </div>
+    </div>
+
+    <!-- Professional Summary -->
+    <div class="section">
+      <div class="section-title">Professional Summary</div>
+      <p class="summary-text">
+        Freelancing Software Developer and MSIT Cybersecurity student with 3+ years of professional experience in full-stack web development. Skilled in JavaScript, React, Node.js, and Python, with a strong focus on secure, performant web applications and clean, maintainable code for real client projects.
+      </p>
+    </div>
+
+    <!-- Experience -->
+    <div class="section">
+      <div class="section-title">Professional Experience</div>
+
+      <div class="job">
+        <div>
+          <span class="job-title">Freelancing Software Developer</span>
+          <span class="date">May 2023 – Present</span>
+        </div>
+        <div class="company">Self-employed</div>
+        <ul>
+          <li>Design and develop responsive web applications and business websites using React, Node.js, and modern web tools.</li>
+          <li>Deliver client-facing service and marketing sites, including an Australian carpet cleaning website to showcase services and capture leads.</li>
+          <li>Apply security and performance best practices in deployments and maintenance.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div>
+          <span class="job-title">Junior Software Developer</span>
+          <span class="date">Jun 2022 – May 2023</span>
+        </div>
+        <div class="company">BeeHive Technologies Pvt. Ltd.</div>
+        <ul>
+          <li>Designed, developed, tested, and maintained APIs for web and desktop applications.</li>
+          <li>Provided production support, assisted in installation, deployment, user training, and troubleshooting.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div>
+          <span class="job-title">Mid-level Software Developer</span>
+          <span class="date">2021 – Jun 2022</span>
+        </div>
+        <div class="company">Bigfoot Info Tech Pvt. Ltd.</div>
+        <ul>
+          <li>Implemented software solutions based on business requirements and design specifications.</li>
+          <li>Wrote efficient, maintainable, and well-documented code.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div>
+          <span class="job-title">Intern</span>
+          <span class="date">2020 – 2021</span>
+        </div>
+        <div class="company">Bigfoot Info Tech Pvt. Ltd.</div>
+        <ul>
+          <li>Learned backend API design and development practices and testing workflows.</li>
+          <li>Maintained technical documentation for application and database installation and deployment.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+      <div class="section-title">Education</div>
+
+      <div class="education">
+        <div>
+          <span class="degree">Master of Science in Information Technology (Cybersecurity)</span>
+          <span class="date">Ongoing</span>
+        </div>
+        <div class="school">Presidential Graduate School, Nepal</div>
+      </div>
+
+      <div class="education">
+        <div>
+          <span class="degree">Bachelor of Science in Computer Science & IT</span>
+          <span class="date">2021</span>
+        </div>
+        <div class="school">Tribhuvan University, Nepal</div>
+      </div>
+
+      <div class="education">
+        <div>
+          <span class="degree">Higher Secondary (10+2)</span>
+          <span class="date">2017</span>
+        </div>
+        <div class="school">National Examinations Board, Nepal</div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+      <div class="section-title">Technical Skills</div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <strong>Frontend</strong>
+          <p>HTML, CSS, Bootstrap, React</p>
+        </div>
+        <div class="skill-category">
+          <strong>Backend</strong>
+          <p>Node.js, Python, Express</p>
+        </div>
+        <div class="skill-category">
+          <strong>Databases</strong>
+          <p>MongoDB, MySQL</p>
+        </div>
+        <div class="skill-category">
+          <strong>Tools</strong>
+          <p>Git, MS Office, WordPress</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Awards -->
+    <div class="section">
+      <div class="section-title">Awards & Recognition</div>
+      <div class="award">
+        <div>
+          <span class="award-title">Regional Champion, Startup World Cup</span>
+          <span class="date">2022</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+      <div class="section-title">Key Projects</div>
+
+      <div class="project">
+        <div>
+          <span class="project-title">Instant Carpet Cleaning Services</span> |
+          <span style="color:#999;font-size:10px;">Freelance · Web Design</span>
+        </div>
+        <div class="school" style="margin-top:2px;">
+          Responsive marketing website for an Australian carpet cleaning business to present services, build trust, and generate leads.
+        </div>
+      </div>
+
+      <div class="project">
+        <div>
+          <span class="project-title">Inksvilla</span> |
+          <span style="color:#999;font-size:10px;">Android, Node.js</span>
+        </div>
+        <div class="school" style="margin-top:2px;">
+          Platform for tattoo artists to showcase designs while users browse, book appointments, and purchase designs; includes social features.
+        </div>
+      </div>
+
+      <div class="project">
+        <div>
+          <span class="project-title">JumpNations</span> |
+          <span style="color:#999;font-size:10px;">React, Node.js</span>
+        </div>
+        <div class="school" style="margin-top:2px;">
+          Lifestyle and sports services platform for practice, learning, and networking, supporting sports as part of daily life.
+        </div>
+      </div>
+
+      <div class="project">
+        <div>
+          <span class="project-title">REFRC.EDU.NP</span> |
+          <span style="color:#999;font-size:10px;">WordPress</span>
+        </div>
+        <div class="school" style="margin-top:2px;">
+          Website for an educational institute, including content structure, layout, and deployment.
+        </div>
+      </div>
+
+      <div class="project">
+        <div>
+          <span class="project-title">MERN Stack Ecommerce</span> |
+          <span style="color:#999;font-size:10px;">React, Node.js, Express, MongoDB</span>
+        </div>
+        <div class="school" style="margin-top:2px;">
+          Learning-focused ecommerce application implementing core shopping flows and basic product management.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
